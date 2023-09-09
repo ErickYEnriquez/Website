@@ -1,0 +1,146 @@
+body{
+  position: relative;
+  color: #FCFEFE;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 20px;
+}
+
+.bg-custom{
+  background-color: #EAF6F6;
+  text-shadow: none;
+}
+
+header#hero{
+  background-image: 
+  linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)), 
+  url("assets/final-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 80vh;
+  padding: 200px 0 100px 0;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(80,0,0);
+}
+
+.profile{
+  border-radius: 50%;
+  max-width: 20vw;
+  border: 3px solid lightblue;
+}
+
+.text-muted{
+  color: lightblue !important;
+}
+
+section {
+padding: 40px 0;
+}
+
+section#mission{
+  background-color: #F76B8A;
+}
+
+section#skills{
+background-color: #66BFBF;
+}
+
+section#inspiration{
+  background-color: #F76B8A;
+}
+
+.carousel-item img{
+  height: 80vh;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top;
+}
+
+.carousel-item:after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.4);
+}
+
+.carousel-caption{
+  z-index: 1;
+}
+
+section#contact{
+   background-color: #66BFBF;
+}
+
+.col-md-6 img{
+  width: 100%;
+}
+
+.skills-img{
+  display: block;
+  height:100px;
+  width: 100px;
+}
+
+.icon-size{
+  font-size: 50px;
+}
+
+.email{
+  color: red;
+}
+
+.phone{
+  color: orange;
+}
+
+.foot{
+  padding: 10px;
+}
+
+.images{
+  padding:50px;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Joan', serif;
+}
+
+.icon-phone:hover .phone,
+.icon-phone .call{
+  display: none;
+}
+.icon-phone:hover .call{
+  display:inline;
+  color: green;
+}
+
+.icon-insta{
+  transition-duration: 1s;
+  color: purple;
+}
+
+.icon-insta:hover{
+  transform: scale(1.5);
+  color: #ff00ff;
+}
+
+.icon-email:hover .email,
+.icon-email .send{
+  display: none;
+}
+.icon-email:hover .send{
+  display:inline;
+  color: blue;
+}
+
+
+footer{
+  color:black;
+}
